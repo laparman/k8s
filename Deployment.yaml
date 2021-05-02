@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello
-        image: wonjoyoo/docker-hello-world:latest
+        image: wonjoyoo/tkg:v28
         ports:
         - containerPort: 8080
