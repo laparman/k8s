@@ -6,4 +6,4 @@ resources:
 - ../../base
 images:
 - name: wonjoyoo/tkg
-  newTag: "65"
+  newTag: "66"
