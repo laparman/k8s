@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello
-        image: wonjoyoo/tkg:v28
+        image: wonjoyoo/tkg:latest
         ports:
         - containerPort: 8080
