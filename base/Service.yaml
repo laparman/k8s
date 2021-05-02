@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: hello
 spec:
-  type: ServicePort
+  type: ServiceIP
   selector:
     app: hello
   ports:
