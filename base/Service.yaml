@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: hello
 spec:
-  type: NodePort
+  type: ServicePort
   selector:
     app: hello
   ports:
     - protocol: TCP
-      port: 80
+      port: 8080
       targetPort: 8080
